@@ -1,2 +1,1 @@
-# affnet
-AffNet Framework for Link Prediction
+# AffNet Framework for Link Prediction

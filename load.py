@@ -23,6 +23,7 @@ def convert_edge_index_to_tf(edge_index, n_nodes, n_edges):
                      values=tf.ones(n_edges), dense_shape=[n_nodes, n_nodes])
     edge_index = tf.sparse.reorder(edge_index)
     print("aaaaa")
+    print("bbbb")
     return(edge_index)
 
 class tf_GData:
